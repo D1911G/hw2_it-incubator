@@ -1,18 +1,49 @@
 .sendForm {
-
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%; /* РАСТЯГИВАЕМ НА ВСЮ ШИРИНУ */
+  max-width: 1280px; /* Максимальная ширина как у сообщений */
+  margin-top: 20px;
 }
 
 .textarea {
+  flex: 1;
+  background-color: #f5f7fb;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  height: 40px;
+  resize: none;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  overflow: hidden;
+}
 
+.textarea::placeholder {
+  color: #999999;
+  font-weight: 400;
 }
 
 .button {
-
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 0 30px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
 }
 
 .button:hover {
-
+  background-color: #0052a3;
 }
-.button:active {
 
+.button:active {
+  background-color: #003d7a;
 }
