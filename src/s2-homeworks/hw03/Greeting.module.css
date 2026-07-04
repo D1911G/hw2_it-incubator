@@ -2,34 +2,59 @@
 }
 
 .inputAndButtonContainer {
+  display: flex;
 }
 
 .error {
+  color: #cc0000;
 }
 
 .input {
+  width: 372px;
+  height: 36px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 .input:focus {
+  width: 372px;
+  height: 36px;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .errorInput {
+  width: 372px;
+  height: 36px;
+  border: 1px solid #cc0000;
+  margin-right: 10px;
+  border-radius: 5px;
 }
-
 .button {
+  background-color: #0066cc;
+  width: 78px;
+  height: 36px;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
 .button:focus {
+  color: #ffffff;
 }
 
 .button:active {
+  color: #ffffff;
 }
 
 .button:disabled {
+  background-color: #0066cc81;
+  color: #ffffff;
 }
 
 .text {
+  color: #00000080;
 }
 
 .greeting {
+  color: #000000;
 }
