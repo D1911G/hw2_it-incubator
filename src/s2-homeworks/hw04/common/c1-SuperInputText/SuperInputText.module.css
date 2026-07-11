@@ -2,6 +2,10 @@
 }
 
 .input {
+  width: 372px;
+  height: 36px;
+  border-radius: 5px;
+  border-color: #d1d1d1;
 }
 
 .inputWrapper {
@@ -11,10 +15,14 @@
 }
 
 .errorInput {
+  border-color: #cc1439;
 }
 
 .errorInput:focus {
+  border-color: #cc1439;
 }
 
 .error {
+  color: #cc1439;
+  border-color: #cc1439;
 }
