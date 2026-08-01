@@ -2,10 +2,16 @@
 }
 
 .span {
+  color: #0080ff;
+  width: 69px;
+  height: 20px;
+  font-weight: 500;
 }
 
 .input {
 }
 
 .pen {
+  color: #0080ff;
+  width: 16px;
 }
