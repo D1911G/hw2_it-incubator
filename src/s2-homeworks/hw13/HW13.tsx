@@ -43,7 +43,7 @@ const HW13 = () => {
       .catch((e) => {
         if (e.response?.status === 400) {
           setCode("Ошибка 400");
-          setText("Ты не отправил success в body вообще! ");
+          setText("Ты не отправил success в body вообще!");
           setInfo(
             "ошибка 400 - обычно означает что скорее всего фронт отправил что-то не то на бэк!",
           );
