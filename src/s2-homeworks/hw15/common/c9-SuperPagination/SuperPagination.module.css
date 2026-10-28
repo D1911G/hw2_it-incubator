@@ -1,11 +1,30 @@
-.pagination {
-    display: flex;
+/* .pagination {
+  display: flex;
 }
 
 .text1 {
-
 }
 
 .text2 {
+} */
+/* SuperPagination.module.css */
 
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+  gap: 10px;
+}
+
+.text1 {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.text2 {
+  font-size: 14px;
+  color: #666;
 }
